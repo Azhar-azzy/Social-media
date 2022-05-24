@@ -1,0 +1,68 @@
+.post__share {
+  display: flex;
+  gap: 1rem;
+  background: var(--cardColor);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.post__share > img {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+}
+
+.post__share > div {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 1rem;
+}
+.post__share > div > input {
+  background: var(--inputColor);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+}
+
+/* post__options */
+.post__options {
+  display: flex;
+  justify-content: space-around;
+}
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+.option:hover {
+  cursor: pointer;
+}
+
+.ps__button {
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+}
+
+.preview__image {
+  position: relative;
+}
+.preview__image > svg {
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  cursor: pointer;
+}
+.preview__image > img {
+  width: 100%;
+  max-height: 20rem;
+  object-fit: cover;
+}

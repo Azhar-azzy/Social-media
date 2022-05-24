@@ -1,0 +1,81 @@
+.auth {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 4rem;
+}
+.auth > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Left Side */
+.auth__left {
+  gap: 2rem;
+}
+.auth__left > img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.web__name > h1 {
+  font-size: 3rem;
+  background: red;
+  /* Gradient */
+  background-image: var(--buttonBg);
+
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.web__name > h6 {
+  font-size: 1rem;
+}
+
+/* FORM */
+.info__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.info__input {
+  border: none;
+  outline: none;
+  background: var(--inputColor);
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1;
+}
+.info__form > div {
+  display: flex;
+  gap: 1rem;
+  height: 2rem;
+  width: 90%;
+}
+
+.info__button {
+  width: 6rem;
+  height: 2rem;
+  align-self: flex-end;
+}
+
+.auth__form {
+  background-color: var(--cardColor);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.auth__form > div {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}

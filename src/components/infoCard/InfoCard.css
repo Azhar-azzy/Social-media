@@ -1,0 +1,23 @@
+.info__card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: var(--cardColor);
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 90%;
+}
+.info__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info__head > div:hover {
+  cursor: pointer;
+}
+
+.button.logout {
+  width: 7rem;
+  height: 2rem;
+  margin-top: 6rem;
+}
